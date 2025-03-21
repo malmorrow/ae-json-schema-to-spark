@@ -1,0 +1,18 @@
+{
+    "type": "struct",
+    "fields": [{"name": "atoll_site_id", "type": "string", "nullable": false, "metadata": {}},
+               {"name": "modernization", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "l2100_ca", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "l2100_10mhz", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "u900_dc", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "l900", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "six_sect", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "sectorization", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "nb_iot", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "boost_3g", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "boost_4g", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "rain_name", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "rain_ca", "type": "date", "nullable": true, "metadata": {}},
+               {"name": "live_site", "type": "integer", "nullable": true, "metadata": {}}
+    ]
+}

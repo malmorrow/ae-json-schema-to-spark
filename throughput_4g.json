@@ -1,0 +1,8 @@
+{
+    "type": "struct",
+    "fields": [{"name": "atoll_site_id", "type": "string", "nullable": false, "metadata": {}},
+               {"name": "avg_dl_throughput_mbps", "type": "decimal(38,10)", "nullable": true, "metadata": {}},
+               {"name": "avg_ul_throughput_mbps", "type": "decimal(38,10)", "nullable": true, "metadata": {}},
+               {"name": "date_time", "type": "timestamp", "nullable": true, "metadata": {}}
+    ]
+}
