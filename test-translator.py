@@ -2,7 +2,7 @@ import unittest
 from pyspark.sql import types as T
 
 class RanSitelistForTx(unittest.TestCase):
-        T.T.StructType(
+        T.StructType(
         [
             T.StructField("atoll_site_id", T.StringType(), False),
             T.StructField("modernization", T.DecimalType(), True),
@@ -27,6 +27,6 @@ class Test(unittest.TestCase):
         objectName = RanSitelistForTx() 
         message = "given object is not instance of RanSitelistForTx."
         self.assertIsInstance(objectName, RanSitelistForTx, message) 
-    
+
 if __name__ == '__main__': 
     unittest.main() 
